@@ -11,7 +11,8 @@ list_of_message = message.split(" ")
 emojis = {
     ":)" : "😊" , 
     ":(" : "🙁" ,
-    ":()" : "😀"    
+    ":()" : "😀",
+    " :|" : "😑"    
 }
 final_message = ""
 for  words in list_of_message :
@@ -28,7 +29,8 @@ def emoji_converter_message(message):
     emojis = {
     ":)" : "😊" , 
     ":(" : "🙁" ,
-    ":()" : "😀"    
+    ":()" : "😀" ,
+    " :|" : "😑"    
 }
     final_message = ""
     for  words in list_of_message :
